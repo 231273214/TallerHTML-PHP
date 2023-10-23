@@ -1,17 +1,15 @@
 <!DOCTYPE html>
-<html long = "es">
+<html lang = "es">
     <head>
         <meta charset="UTF-8">
+        <title>Números</title>
     </head>
     <body>
         <h1>HOLA LLEGASTE AL EJERCICIO 1</h1>
-        <h2>ir a la pagina principal</h2>
-        <a href="../Pagina_principal.html">Ir a la pagina principal</a>
-        <h2>ir al ejercicio 2</h2>
-        <a href="../calculo_area/area_figuras.html">Ir al ejercicio 2</a>
-        <h2>ir al ejercicio 3</h2>
-        <a href="../calcular_promedio/Cal_promedio.html">Ir al ejercicio 3</a>
-        <h2>ir al ejercicio 4</h2>
-        <a href="../aplicacion_docentes/Docentes.html">Ir al ejercicio 4</a>
+        <form action="procesar.php" method="post">  
+                <label for="nums">Ingrese su lista de números (separados por comas): </label><br>
+                <input type="text" id="nums" name="nums" required><br>
+                <button type="submit">Ordenar</button>
+        </form>
     </body>
 </html>
