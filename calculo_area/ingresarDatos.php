@@ -80,5 +80,13 @@ if(
         }
         ?>
     </form>
+    <h2>ir a pagina principal</h2>
+        <a href="../pagina_principal">Ir a la pagina principal</a>
+        <h2>ir al ejercico 1</h2>
+        <a href="../list_numeros/list_num.html">Ir al ejercicio 1</a>
+        <h2>ir al ejercicio 3</h2>
+        <a href="../calcular_promedio/index.html">Ir al ejercicio 3</a>
+        <h2>ir al ejercicio 4</h2>
+        <a href="../aplicacion/index.html">Ir al ejercicio 4</a>
 </body>
 </html>
